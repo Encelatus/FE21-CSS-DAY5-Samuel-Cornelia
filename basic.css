@@ -3,12 +3,18 @@
   padding: 0;
 }
 
-nav ul {
+ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+}
+
+nav {
+  width: 100%;
 }
 
 header {
@@ -16,15 +22,13 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.headerimage {
+  width: 10%;
 }
 
 a {
@@ -34,15 +38,22 @@ a {
 }
 
 main {
-  background-image: url(6ee1dc8950385d849b823235fdd42313.jpg);
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 2vw;
+  width: 100%;
+  background-image: url(https://wallpaperaccess.com/full/204453.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 footer {
+  text-align: center;
+  font-size: 2vw;
   background-color: #165a70;
 }
 
@@ -53,7 +64,24 @@ img {
      object-fit: contain;
 }
 
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  height: 20%;
+}
+
 .text p {
+  font-size: 1.5vw;
   background-color: #0CA3EB;
+}
+
+h1 {
+  font-size: 3vw;
+  background-color: #0CA3EB;
+}
+
+.image {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 /*# sourceMappingURL=basic.css.map */

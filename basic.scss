@@ -11,35 +11,41 @@ $headfootcolor: #165a70;
 //     // padding: 0;
 //     // margin: 0;
 // }
-nav ul {
+ul {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
-
+nav {
+    // flex-grow: 1;
+    width: 100%;
+}
 header {
     background-color: $headfootcolor;
     display: flex;
+    align-items: center;
 }
 
-li {
-    display: flex;
-    // align-items: stretch;
-    justify-content: space-between;
+.headerimage {
+    width: 10%;
 }
+
 a {
     text-decoration: none;
     color: darkgray;
     font-size: 3vw;
 }
 main {
-    // background-color: lightcoral;
-    background-image: url(6ee1dc8950385d849b823235fdd42313.jpg);
-    // Ask if backround-images need to be downloaded?!
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw; 
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/204453.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 footer {
+    text-align: center;
+    font-size: 2vw;
     background-color: $headfootcolor;
 }
 // .text {
@@ -50,6 +56,23 @@ img {
     height: 100%;
     object-fit: contain;
 }
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 20%;
+    // object-fit: contain;
+}
 .text p {
+    font-size: 1.5vw;
     background-color: #0CA3EB;
+}
+h1 {
+    font-size: 3vw;
+    background-color: #0CA3EB;
+}
+.image {
+    // width: 0%;
+    // height: 10%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
