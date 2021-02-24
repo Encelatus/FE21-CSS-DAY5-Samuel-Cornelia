@@ -37,8 +37,7 @@ a {
   font-size: 3vw;
 }
 
-main {
-  width: 100%;
+.wrapper {
   background-image: url(https://wallpaperaccess.com/full/204453.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,7 +79,7 @@ h1 {
   background-color: #0CA3EB;
 }
 
-.image {
+.image1 {
   padding-top: 10vw;
   padding-bottom: 10vw;
 }
