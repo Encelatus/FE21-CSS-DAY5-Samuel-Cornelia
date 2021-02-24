@@ -33,11 +33,13 @@ h1 {
 
 .blogEntry {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
+    flex-wrap: wrap;
 // figure out how to center blog entries including images
     .wrapper{
-        display: flex;
+        // display: flex;
+        // flex-wrap: wrap;
         justify-content: center;
     }
 
