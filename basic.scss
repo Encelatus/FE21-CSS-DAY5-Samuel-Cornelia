@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+// figure out how to get space between the header links!!!
+$headfootcolor: #165a70;
+// ul {
+//     // display: flex;
+//     // justify-content: space-around;
+//     // list-style-type: none;
+//     // padding: 0;
+//     // margin: 0;
+// }
+nav ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: $headfootcolor;
+    display: flex;
+}
+
+li {
+    display: flex;
+    // align-items: stretch;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 3vw;
+}
+main {
+    // background-color: lightcoral;
+    background-image: url(6ee1dc8950385d849b823235fdd42313.jpg);
+    // Ask if backround-images need to be downloaded?!
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw; 
+}
+footer {
+    background-color: $headfootcolor;
+}
+// .text {
+//     background-color: #0CA3EB;
+// }
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.text p {
+    background-color: #0CA3EB;
+}
