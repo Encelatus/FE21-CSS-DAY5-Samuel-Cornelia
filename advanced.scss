@@ -33,21 +33,30 @@ h1 {
 
 .blogEntry {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // flex-wrap: wrap;
 // figure out how to center blog entries including images
     .wrapper{
-        // display: flex;
+        padding: 3vw 3vw 0 0;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
         // flex-wrap: wrap;
-        justify-content: center;
+        
+        // justify-content: space-around;
     }
 
     h2 {
+        text-align: center;
         text-decoration: underline;
     }
 
-    img {
-        width: 50vw;  
+    
+    p {
+        text-align: justify;
+        background-color: lightskyblue;
     }
+
 }
